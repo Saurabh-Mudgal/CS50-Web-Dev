@@ -34,7 +34,7 @@ Here are some common and most widely used commands that you can benefit learning
 
 **git pull origin -** Pull's the present repositary to the local repositary from the remote such as the Github Repo.
 
-**git push -u origin main -** Pushes the changes ie the present local repositary to the remote such as Github Repo.
+**git push -u origin master -** Pushes the changes ie the present local repositary to the remote such as Github Repo.
 
 **git clone _<repo_link>_ -** Clone a remote repo to your local device. However, note that you can't push changees to the remote repo unless you are listed as contributor.
 
@@ -50,4 +50,4 @@ Here are some common and most widely used commands that you can benefit learning
 
 **git reflog -** Displays a log/list of all commits, even those previously made on the "future versions" after resetting to an older version.
 
-Note, by default you are working in the main branch. When pushing/ pulling commits, be mindful of which branch you are in. That branch will be the pushed/ pulled.
+Note, by default you are working in the master branch. When pushing/ pulling commits, be mindful of which branch you are in. That branch will be the pushed/ pulled.
