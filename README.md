@@ -12,13 +12,15 @@ Here are some common and most widely used commands that you can benefit learning
 
 **git init -** Initialises a local repositary on your device.
 
-**touch _<filename>_ -** Creates a file in the present folder address
+**touch _<file_name>_ -** Creates a file in the present folder address
 
-**git add _<filename>_ -** Adds the file in the directory/ folder to the "changes tray". Changes tray is like a temporary holding area where git tracks the snapshot of the changes until you finally commit them. So that you don't have to commit each file/ change one by one.
+**git add _<file_name>_ -** Adds the file in the directory/ folder to the "staging tray". Changes tray is like a temporary holding area where git tracks the snapshot of the changes until you finally commit them. So that you don't have to commit each file/ change one by one.
 
-**git add . -** Adds all file changes at once to the "change tray".
+**git add . -** Adds all file changes at once to the "staging tray".
 
-**git commit -m _'<Your Message>'_ -** Commits all the changes in the "change tray" to the local repositary and logs the commit with a unique hash, the time, the committer's name, and the message.
+**git commit -m "_<Your_Message>_" -** Commits all the changes in the "staging tray" to the local repositary and logs the commit with a unique hash, the time, the committer's name, and the message.
+
+**git commit -am "_<Your_Message>_" -** Adds all files AND commits all the changes in the "staging tray" to the local repositary and logs the commit with a unique hash, the time, the committer's name, and the message.
 
 **git remote -** Allows you to view any remote link's name to the local repositary. Eg. a Github repositary.
 
@@ -32,12 +34,12 @@ Here are some common and most widely used commands that you can benefit learning
 
 **git branch -** Displays all current branches in the repositary
 
-**git branch _<branch name>_ -** Creates a branch with the branch name
+**git branch _<branch_name>_ -** Creates a branch with the branch name
 
-**git checkout _<branch name>_ -** Changes the working branch to the branch name
+**git checkout _<branch_name>_ -** Changes the working branch to the branch name
 
 **git reset --hard origin/master -** Reverts the version back to the master version
 
-**git reset -- hard <commit> -** Reverts the version back to the commit hash provided
+**git reset -- hard <commit_#> -** Reverts the version back to the commit hash provided
 
 Note, by default you are working in the main branch. When pushing/ pulling commits, be mindful of which branch you are in. That branch will be the pushed/ pulled.
