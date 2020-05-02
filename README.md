@@ -22,6 +22,10 @@ Here are some common and most widely used commands that you can benefit learning
 
 **git commit -am "_<Your_Message>_" -** Adds all files AND commits all the changes in the "staging tray" to the local repositary and logs the commit with a unique hash, the time, the committer's name, and the message.
 
+**git status -** Displays the status. What is git tracking. Is there anything in the "Staging tray". Are there any pending commits.
+
+**git log -** DIsplays a log/ list of all the commits.
+
 **git remote -** Allows you to view any remote link's name to the local repositary. Eg. a Github repositary.
 
 **git remote -v -** Allows you to view any remote link's name to local repositary along with http link to the repositary. Eg. a Github repositary.
@@ -41,5 +45,7 @@ Here are some common and most widely used commands that you can benefit learning
 **git reset --hard origin/master -** Reverts the version back to the master version
 
 **git reset -- hard <commit_#> -** Reverts the version back to the commit hash provided
+
+**git reflog -** Displays a log/list of all commits, even those previously made on the "future versions" after resetting to an older version.
 
 Note, by default you are working in the main branch. When pushing/ pulling commits, be mindful of which branch you are in. That branch will be the pushed/ pulled.
