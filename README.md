@@ -18,7 +18,7 @@ Here are some common and most widely used commands that you can benefit learning
 
 **git add . -** Adds all file changes at once to the "change tray".
 
-**git commit -m "_<Your Message>_" -** Commits all the changes in the "change tray" to the local repositary and logs the commit with a unique hash, the time, the committer's name, and the message.
+**git commit -m _'<Your Message>'_ -** Commits all the changes in the "change tray" to the local repositary and logs the commit with a unique hash, the time, the committer's name, and the message.
 
 **git remote -** Allows you to view any remote link's name to the local repositary. Eg. a Github repositary.
 
