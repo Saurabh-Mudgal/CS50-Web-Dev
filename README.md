@@ -36,6 +36,8 @@ Here are some common and most widely used commands that you can benefit learning
 
 **git push -u origin main -** Pushes the changes ie the present local repositary to the remote such as Github Repo.
 
+**git clone _<repo_link>_ -** Clone a remote repo to your local device. However, note that you can't push changees to the remote repo unless you are listed as contributor.
+
 **git branch -** Displays all current branches in the repositary
 
 **git branch _<branch_name>_ -** Creates a branch with the branch name
